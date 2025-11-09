@@ -1,0 +1,79 @@
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Keep project docs tracked (removed HELP.md from ignore)
+
+### STS / Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### OS generated files ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Editor temporary files ###
+*~
+*.swp
+*.swo
+*.tmp
+
+### Logs ###
+*.log
+logs/
+tmp/
+
+### Build / packaging ###
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+### Generated sources ###
+/generated/
+/build/generated/
+
+### Gradle wrapper - keep the jar (exception above) ###
+gradle-wrapper.jar
+
+### Environment / secrets (adjust per project policy) ###
+.env
+.env.*
+secrets.*
+*.keystore
+
+### Miscellaneous ###
+.idea/
